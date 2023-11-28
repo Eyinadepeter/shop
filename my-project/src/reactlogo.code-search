@@ -1,0 +1,18 @@
+# Query: reactlogo
+# ContextLines: 1
+
+cd 2 results - 1 file
+
+my-project\src\App.jsx:
+   0  import { useState } from 'react'
+   1  import { useState } from 'react'
+   2: import reactLogo from './assets/react.svg'
+
+   2  import viteLogo from '/vite.svg'
+   3  import viteLogo from '/vite.svg'
+
+  14          <a href="https://react.dev" target="_blank">
+  15          <a href="https://react.dev" target="_blank">
+  16:           <img src={reactLogo} className="logo react" alt="React logo" />
+  16          </a>
+  17          </a>
